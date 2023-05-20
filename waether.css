@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(204, 32, 32, 0.667),rgba(57, 42, 197, 0.507),rgb(15, 130, 197),rgba(42, 197, 161, 0.68));
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.bg-white{
+    padding: 20px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px  ;
+}
+input{
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    height:40px;
+    width:400px;
+    border-radius: 20px;
+}
+.d-flex{
+    margin-top: 20px;
+    float: right;
+    margin-left: 20px;
+}
