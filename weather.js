@@ -22,7 +22,7 @@ b.onclick=function(){
             d.innerText=description
         })
         .catch(()=>{
-            
+            alert("entered invalid location")
         })
         InputE1.value=""
     }
